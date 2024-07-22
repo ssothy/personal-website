@@ -47,10 +47,12 @@ main {
     width: 100%;
     margin-top: 1%;
     padding-right: 10%;
+    padding-bottom: 5%;
     background-color: rgba(255, 255, 255, 0.687);
     color: rgb(79, 79, 79);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     border-radius: 10px;
+    margin-bottom: 5%;
 }
 
 body::before {
@@ -162,25 +164,9 @@ body::before {
 
 .about-me {
     padding-left: 10%;
+    padding-bottom: 3%;
 }
 
-.skills-container {
-    padding-left: 10%;
-}
-
-.progress {
-    margin-bottom: 3%;
-    background-color: rgba(255, 255, 255, 0.488);
-    border-radius: 6px;
-}
-
-.progress-bar {
-    transition: .9s linear;
-    transition-property: width, background-color;
-    background-color:rgba(127, 156, 194, 0.543);
-    border-radius: 6px;
-
-}
 
 /*
  * Portfolio
@@ -231,31 +217,26 @@ body::before {
  * CONTACT
  */
 .contact-main {
-    padding-bottom: 15%;
-}
-.email-box {
-    margin-top: 5%;
-    margin-left: 5%;
-    background:white;
-    border-radius: 10px;
-    padding: 5%;
-}
-.social-media-box {
-    background: white;
-    margin-left: 5%;
-    padding: 5%;
-    margin-top: 5%;
-    border-radius: 10px;
-}
-.social-media-box svg {
-    margin-right: 15%;
-    margin-top: 5%;
+    padding-bottom: 5%;
 }
 
-.social-media-box svg:hover {
+.contact-boxes {
+    background: white;
+    margin-left: 10%;
+    padding: 3%;
+    margin-top: 1%;
+    border-radius: 10px;
+    width: 90%;
+}
+.contact-boxes svg {
+    margin-right: 5%;
+    margin-top: 0%;
+}
+
+.contact-boxes svg:hover {
     opacity: .5;
 }
-.social-media-box a {
+.contact-boxes a {
     color: rgb(80, 80, 80);
 }
 .unnecassary-text {
