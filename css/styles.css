@@ -71,6 +71,10 @@ body::before {
   max-width: 100%;
 }
 
+img {
+    border-radius: 10px;
+}
+
 
 /*
  * Header
@@ -113,44 +117,6 @@ body::before {
     margin-top: -2%;
 }
 
-/*
- * Home
- */
-
-.home-container{
-    background-color: rgba(255, 255, 255, 0.699);
-    margin-top: 10%;
-    padding-bottom: 15%;
-    color:rgb(80, 80, 80);
-    padding-left: 10%;
-    padding-top: 5%;
-}
-.home-container h1 {
-    color:rgb(80, 80, 80);
-    font-family: 'Nanum Pen Script', cursive;
-    font-size: 400%;
-    padding-bottom: -10%;
-}
-.home-container nav {
-    margin-left: -2%;
-}
-.home-container nav a{
-    color:rgb(80, 80, 80);
-    font-size: 200%;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-.home-container nav a:hover {
-    opacity: .5;
-}
-
-.index-nav{
-    margin-right: -15%;
-}
-.bitch {
-    margin-right: -20%;
-}
-
 
 /*
  * About
@@ -159,7 +125,6 @@ body::before {
 .me {
     width: 100%;
     height:auto;
-    border-radius: 10px;
 }
 
 .about-me {
@@ -239,7 +204,7 @@ body::before {
 .contact-boxes a {
     color: rgb(80, 80, 80);
 }
-.unnecassary-text {
+.unnecessary-text {
     font-size: small;
 }
 
